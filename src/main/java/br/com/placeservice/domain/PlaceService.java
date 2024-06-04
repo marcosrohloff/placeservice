@@ -43,4 +43,5 @@ public class PlaceService {
         Example<Place> query = QueryBuilder.makeQuery(place);
         return placeRepository.findAll(query, Sort.by("name"));
     }
+    
 }
